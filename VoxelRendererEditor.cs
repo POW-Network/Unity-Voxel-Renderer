@@ -6,7 +6,7 @@ using UnityEditor;
 [CustomEditor(typeof(VoxelRenderer))]
 public class VoxelRendererEditor : Editor
 {
-    Vector3 randPosMin, randPosMax;
+    static Vector3 randPosMin, randPosMax;
 
     public override void OnInspectorGUI()
     {
